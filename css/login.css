@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: #FFB980;
+}
+
+.menu{
+    background : #FFB980;
+    width : 100%
+}
+
+
+.isi{
+    float: left;
+    text-align: center;
+    padding-top :100px; 
+    padding-left:50px;
+    font-family: 'sans-serif';
+    font-weight: bold;
+    font-size : 25px;
+
+}
+.form{ 
+    width: 400px; 
+    height: 500px; 
+    float:right; 
+    top: 50px;
+    right:10rem;
+    position: relative;
+    border-style:solid;
+    border-width: 5px;
+    border-radius: 40px;
+
+    
+}
+.logo{
+    position: relative;
+    text-align: center;
+    top:2rem;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.form h2{
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding : 15px;
+    margin-top: 10px;
+    background-color: rgba(255, 228, 196, 0);   
+    padding-bottom:0px;
+    padding-left: 10%;
+}
+
+.form span{
+    color:blue;
+}
+
+
+.form input {
+    width : 250px;
+    height : 35px;
+    background: transparent;
+    border-bottom : 1px solid #000000;
+    border-top : none; 
+    border-right : none;
+    border-left: none;
+    color : black;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-left:75px;
+    font-family : sans-serif;
+    text-align: center;
+}
+
+.btn{
+    width : 240px;
+    height : 40px;
+    background: #ffffff;
+    border-radius:100px;
+    border-style:solid; 
+    margin-top : 30px; 
+    font-size: 18px;
+    border-radius: 100px;
+    border-color:black;
+    margin-left: 80px;
+}
+.btn a{
+    color:rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    font-weight: bold;
+}
+
+.btn a:hover{
+    color: rgb(255, 153, 0);
+}
+
+
+.link{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-style: normal;
+    color: rgba(0, 26, 255, 0.774);
+    margin-top: 10px;
+    text-align: center;
+    padding-left: 10;
+}
+
+.lupadanskrng{
+    float: left;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    padding-left: 60px;
+    padding-top: 10px;
+}
+
+.with{
+    text-align: center;
+}

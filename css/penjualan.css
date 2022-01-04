@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+	font-family:Andika;
+}
+
+.menu{
+    width: 100%;
+    height: 109vh;
+}
+.kiri{
+    text-align: justify;
+    font-size: 20px;
+}
+.isi{
+    float: left;
+    padding-top :100px; 
+    padding-left:50px;
+    font-family: 'sans-serif';
+    font-weight: bold;
+    font-size : 50px;
+}
+
+.form{
+    width: 400px; 
+    height: 450px; 
+    float:right; 
+    top: 50px;
+    right: 5rem;
+    position: relative;
+    border-style:solid;
+    border-width: 5px;
+    border-radius: 40px;
+}
+.form h2{
+    text-align: center;
+    padding-top:10px;
+}
+.form p{
+    padding-left: 10px;
+    font-size: 20px;
+    text-align: left;
+    line-height: 35px;
+    font-weight: bold;   
+    padding-top: 8px;
+}
+
+.btn{
+    border-style: solid;
+    background: #B89AFF;
+    width:200px;
+    height : 35px;
+    border-radius: 100px;
+    text-align: center;
+    border-color: black;
+    margin-left:100px;
+    margin-top: 20px;
+}
+
+.btn:hover{
+    color:orangered;
+}
+
+a{
+	text-decoration:none;
+	color:black;
+	font-family: Andika;
+	font-size:22px;
+}
+
+.flex-row{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	
+}
+
+ul{
+	list-style-type:none;
+	
+}
+
+.nav{
+	background:#FFB980;
+	padding:0 2rem;
+	height:0rem;
+	min-height:20vh;
+	overflow:hidden;
+	transition:height 1.5s ease-in-out;
+	
+}
+
+.nav .nav-menu{
+	justify-content:space-between;
+	
+}
+
+.nav .toggle-collapse{
+	position:absolute;
+	top:0%;
+	width:90%;
+	cursor:pointer;
+	display:none;
+	
+}
+
+.nav .toggle-collapse .toggle-icon{
+	display:flex;
+	justify-content: flex-end;
+	padding:1.7rem 0;
+}
+
+.nav .toggle-collapse .toggle-icon i{
+	font-size:1.4rem;
+	color:#6C6969;
+}
+
+.collapse{
+	height:40rem;
+
+}
+
+
+.nav .nav-items{
+	display:flex;
+	margin:20;
+	margin-top:35px;
+}
+
+.nav .nav-items .nav-link{
+	padding:1rem 2.3rem;
+	font-size: 1.2rem;
+    position: relative;
+	
+}
+
+.nav .nav-items .nav-link:hover{
+	background-color:#8167BA;
+	border-radius:30px;
+	
+}
+
+.nav .nav-items .nav-link:hover a{
+	color: white;
+	
+}
+
+.atas{
+	width:100%;
+	height:40px;
+	background-color:#B89AFF;
+}
+		
+.container3{
+	width:20%;
+	margin: 0 auto;
+	margin-right:300px;
+}
+		
+.box9{
+	border:4px solid #FF8887;
+	width:230px;
+	border-radius:40px;
+	height:20px;
+	display:inline-block;
+	margin-top:5px;
+}
+		
+.input{
+	outline:none;
+	height:20px;
+	width:180px;
+	border-radius:40px;
+	border:0;
+	display:inline-block;
+}
+		
+.src{
+	background:transparent;
+	outline:none;
+	border:0;
+	color:white;
+	padding-left:10px;
+}
+		
+.box9:hover{
+	background-color:#FFBFBC;
+}
+
+.box10 {
+	width:30px;
+	height:30px;
+	background-color:white;
+	border-radius:100%;
+	margin-top:-27px;
+	margin-left:1100px;	
+}
+
+.footer1{
+	background-color:#FFB980;
+}
+
+.footer2{
+	width:100%;
+	height: 50px;
+	background-color:#FE5919;
+	text-align:center;
+	
+}
+
+.footer1-col{
+	width:30%;
+	padding: 0 15px;
+	
+}
+
+.footer1-col ul li:not(:last-child){
+	margin-bottom:15px;
+	
+}
+
+.footer1-col ul li a{
+	color:black;
+	
+	
+}
+
+.footer1-col ul li a:hover{
+	color:black;
+	padding-left:10px;
+	
+}
+
+.footer1-col .social-links{
+	margin-top: 40px;
+	margin-left:150px;
+	
+
+}
+
+.footer1-col .social-links i:hover{
+	transform: scale(1.3);
+}
+
+.row{
+	display:flex;
+	flex-wrap:wrap;
+	
+}
+
+
+@media (max-width:767px){
+	
+	.footer1{
+		
+		width:50%;
+		
+	}
+	
+	.footer1-col ul li iframe{
+		width:200px;
+		
+	}
+	
+	.footer1-col .social-links i{
+		margin-left:0px;
+	}
+	
+}
+
+@media (max-width:574px){
+	.footer1{
+		
+		width:100%;
+		
+	}
+	
+}
+
+.icon {
+	transform:translateY(-50%);
+	text-align:center;
+	margin-top:17px;
+	margin-left:1020px;
+
+}
+
+.tombol{
+	display:inline-block;
+	width:40px;
+	height:30px;
+	background-color:white;
+	margin:10px;
+	border-radius:100%;
+	box-sizing: 0.5px, 15px, -5px #00000070;
+	overflow:hidden;
+	padding-top:10px;
+	
+}
+
+.tombol i{
+	transition:0.2s linear;
+	font-size:26px;
+	line-height:90%;
+}
+
+.tombol:hover{
+	transform: scale(1.3);
+
+}

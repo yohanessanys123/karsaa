@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding-top :10px;
+}
+
+.isi{
+    align-items:center;
+    text-align:center;
+    border-color: black;
+}
+
+.logo{
+    background: none;
+    padding-left: 43%;
+}
+.pp{
+    padding-left: 500px;
+  
+ }
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    width:500px;
+}
+
+ul li{
+    list-style: none;
+    padding-left: 60px;
+    padding-top: 10px;
+}
+
+.kembali{
+    float: left;
+    padding-left: 0;
+}
